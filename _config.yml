@@ -1,1 +1,2 @@
-permalink: none
+baseurl: /Jekyll-test
+markdown: kramdown
