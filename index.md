@@ -1,11 +1,16 @@
 ---
 layout: default
-title: corner
+title: 随笔
 ---
 
-<p><br /><b>My Blog:</b></p>
-  <ul class="posts">
+
+  <ul>
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+      	<a href="{{ site.baseurl }}{{ post.url }}"
+      		<span>{{ post.title }}</span>
+	      	<span>{{ post.date | date_to_string }}</span> 
+      	</a>
+      </li>
     {% endfor %}
   </ul>

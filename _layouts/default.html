@@ -2,20 +2,37 @@
 <html lang="zh-CN">
 <head>
 	<meta charset="UTF-8">
-	<title>GUI</title>
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" href="../css/basic.css" />
+	<link rel="stylesheet" href="../css/default.css" />
 </head>
 <body>
 <header>
-	<div class="nav">
-		我的博客
+	<div class="head">
+		<a href="">
+			<span class="icon">&#xe698;</span>
+			{{ page.title }}
+		</a>
+		
 	</div>
 </header> <!-- 通常布局文件夹中会提供header、footer文件 -->
 
 	<!-- 未来每个具体markdown文件具体的主体内容翻译成html之后，会被填充到content的位置 -->
-	{{ content }} 
+	<div class="container">
+		<!-- {{ content }}  -->
+	</div>
 	
-<footer>
-	<span>All rights reserved © 2017 shalou.</span>
+	
+<footer class="clearfix">
+	<div class="foot">
+		<div class="foot-link">
+			<span>
+				<a href="javascript:;">关于我们</a>
+				<a href="javascript:;">友情链接</a>
+			</span>
+			<span>All rights reserved © 2017 suibi.</span>
+		</div>
+	</div>
 </footer>
 
 </body>
