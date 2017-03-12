@@ -31,7 +31,7 @@ a {
 	text-decoration:none;
 }
 
-/* 设置页面文字等在拖动鼠标选中情况下的背景色与文字颜色 */  
+/* 设置页面文字等在鼠标选中情况下的背景色与文字颜色 */  
 /*::selection {
 	color:#fff;
 	background-color:#4C6E78;
