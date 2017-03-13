@@ -1,5 +1,3 @@
-baseurl: /Jekyll-test
-auto        : false
-lsi         : false
+
 permalink   : none
 markdown    : kramdown

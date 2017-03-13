@@ -9,7 +9,7 @@ title: 随笔
       <li>
       	<a href="{{ site.baseurl }}{{ post.url }}">
       		<span>{{ post.title }}</span>
-	      	<span>{{ post.date | date_to_string }}</span> 
+	      	<span>{{ post.date | date: "%Y年%m月%d日" }}</span> 
       	</a>
       </li>
     {% endfor %}
